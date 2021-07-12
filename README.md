@@ -1,1 +1,1 @@
-# 0x00. C# - Hello, World
+# C Sharp Holberton School Project
