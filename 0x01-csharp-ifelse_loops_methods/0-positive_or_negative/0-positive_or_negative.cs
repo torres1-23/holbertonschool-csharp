@@ -11,11 +11,11 @@ class Program
 		{
 			msg = "is positive";
 		}
-		if (number < 0)
+		else if (number < 0)
 		{
 			msg = "is negative";
 		}
-		if (number == 0)
+		else if (number == 0)
 		{
 			msg = "is negative";
 		}
