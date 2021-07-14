@@ -20,7 +20,7 @@ class List
 		{
 			MyList.Add(i);
 		}
-		Console.WriteLine(string.Join(", ", MyList));
+		Console.WriteLine(string.Join(" ", MyList));
 		return MyList;
 	}
 }
