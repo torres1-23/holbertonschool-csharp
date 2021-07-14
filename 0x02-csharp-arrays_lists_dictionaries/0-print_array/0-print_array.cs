@@ -19,7 +19,7 @@ class Array
 		{
 			MyArray[i] = i;
 		}
-		Console.WriteLine($"{string.Join(", ", MyArray)}");
+		Console.WriteLine(string.Join(", ", MyArray));
 		return MyArray;
 	}
 }
