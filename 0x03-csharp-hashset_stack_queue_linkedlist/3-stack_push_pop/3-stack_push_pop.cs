@@ -8,7 +8,7 @@ class MyStack
 		int size = aStack.Count;
 		bool IsIn = aStack.Contains(search);
 		Console.WriteLine($"Number of items: {size}");
-		if (aStack.Count == 0)
+		if (size == 0)
 		{
 			Console.WriteLine("Stack is empty");
 		}
@@ -16,7 +16,7 @@ class MyStack
 		{
 			Console.WriteLine($"Top item: {aStack.Peek()}");
 		}
-		Console.WriteLine($"Stack contains \"{search}\" {IsIn}");
+		Console.WriteLine($"Stack contains \"{search}\": {IsIn}");
 		if (IsIn == true)
 		{
 			while (aStack.Pop() != search)
