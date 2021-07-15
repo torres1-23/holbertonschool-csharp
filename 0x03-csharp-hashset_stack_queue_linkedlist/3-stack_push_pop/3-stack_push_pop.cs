@@ -16,7 +16,7 @@ class MyStack
 		{
 			Console.WriteLine($"Top item: {aStack.Peek()}");
 		}
-		Console.WriteLine($"Stack contains {search} {IsIn}");
+		Console.WriteLine($"Stack contains \"{search}\" {IsIn}");
 		if (IsIn == true)
 		{
 			while (aStack.Pop() != search)
