@@ -6,7 +6,7 @@ class LList
 	public static LinkedList<int> CreatePrint(int size)
 	{
 		LinkedList<int> IntLList = new LinkedList<int>();
-		if (size < 0)
+		if (size <= 0)
 		{
 			return IntLList;
 		}
