@@ -17,7 +17,7 @@ class MyQueue
 			Console.WriteLine($"First item: {aQueue.Peek()}");
 		}
 		aQueue.Enqueue(newItem);
-		Console.WriteLine($"Queue contains {search} {IsIn}");
+		Console.WriteLine($"Queue contains \"{search}\": {IsIn}");
 		if (IsIn == true)
 		{
 			while (aQueue.Dequeue() != search)
