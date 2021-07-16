@@ -8,14 +8,14 @@ class LList
 	{
 		int size = myLList.Count;
         LinkedListNode<int> head = myLList.First;
-		if (size == 0)
+		if (head == null)
 		{
 			myLList.AddFirst(n);
 			return myLList.First;
 		}
 		while (head.Next != null)
 		{
-			if (head.Value <= n)
+			if (head.Value < n)
 			{
 				head = head.Next;
 			}
