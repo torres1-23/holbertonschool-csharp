@@ -6,7 +6,6 @@ class LList
 {
 	public static LinkedListNode<int> Insert(LinkedList<int> myLList, int n)
 	{
-		int size = myLList.Count;
         LinkedListNode<int> head = myLList.First;
 		if (head == null)
 		{
