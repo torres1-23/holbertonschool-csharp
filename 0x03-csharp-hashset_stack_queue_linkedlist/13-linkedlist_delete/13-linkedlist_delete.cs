@@ -9,6 +9,10 @@ class LList
         for (int i = 0; i < index; i++)
 		{
             head = head.Next;
+			if (head == null)
+			{
+				return;
+			}
 		}
         myLList.Remove(head);
 	}
