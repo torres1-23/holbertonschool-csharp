@@ -25,6 +25,6 @@ class LList
 			}
 		}
 		myLList.AddLast(n);
-		return myLList.Last;
+		return myLList.First;
 	}
 }
