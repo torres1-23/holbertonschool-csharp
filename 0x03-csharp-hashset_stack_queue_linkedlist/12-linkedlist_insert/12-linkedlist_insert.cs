@@ -15,7 +15,7 @@ class LList
 		}
 		while (head.Next != null)
 		{
-			if (head.Value < n)
+			if (head.Value <= n)
 			{
 				head = head.Next;
 			}
