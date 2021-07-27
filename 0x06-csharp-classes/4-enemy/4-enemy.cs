@@ -5,15 +5,15 @@ namespace Enemies
     /// <summary>Represents zombies enemies.</summary>
     public class Zombie
     {
-        /// Health of a zombie.
+        // Health of a zombie.
         private int health;
         /// <summary>Initializes a new instance of the <see cref="Zombie"/> class.</summary>
         public Zombie()
         {
             health = 0;
         }
-        /// Name of a zombie.
-        /// (no name) by default
+        /* Name of a zombie.
+        (no name) by default */
         private string name = "(No name)";
         /// <summary>Gets or sets the name of a zombie.</summary>
         public string Name
