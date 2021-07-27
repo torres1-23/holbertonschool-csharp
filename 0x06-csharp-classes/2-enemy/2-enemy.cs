@@ -13,6 +13,8 @@ namespace Enemies
             health = 0;
         }
         ///<summary>Initializes a new instance of the <see cref="Zombie"/> class with health value passed as argument.</summary>
+        /// <param name="value">Zombie health value.</param>
+        /// <exception cref="ArgumentException"><paramref name="value"/> is less than 0.</exception>
         public Zombie(int value)
         {
             if (value < 0)
