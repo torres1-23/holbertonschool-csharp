@@ -12,7 +12,7 @@ namespace MyMath
         public static int Max(List<int> nums)
         {
             int num = 0;
-            if (nums.Count != 0)
+            if (nums != null && nums.Count != 0)
             {
                 nums.Sort();
                 num = nums[nums.Count - 1];
