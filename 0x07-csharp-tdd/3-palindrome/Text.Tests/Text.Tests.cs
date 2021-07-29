@@ -22,5 +22,14 @@ namespace Tests
             string test = "ABAJABAJ";
             Assert.That(Text.Str.IsPalindrome(test), Is.False);
         }
+        [Test]
+        public void xempty()
+        {
+            string s = "";
+            
+            bool result = Text.Str.IsPalindrome(s);
+
+            Assert.AreEqual(true, result);
+        }
     }
 }
