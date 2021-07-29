@@ -25,6 +25,14 @@ namespace Tests
             int result = Text.Str.UniqueChar(s);
             Assert.That(result, Is.EqualTo(4));
         }
-        
+        [Test]
+        public void xnull()
+        {
+            string s = null;
+            
+            int result = Text.Str.UniqueChar(s);
+
+            Assert.AreEqual(-1, result);
+        }
     }
 }

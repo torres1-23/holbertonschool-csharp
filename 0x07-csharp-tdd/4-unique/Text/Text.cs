@@ -13,6 +13,8 @@ namespace Text
         {
             List<char> reject = new List<char>();
             Dictionary<char, int> hold = new Dictionary<char, int>();
+            if (s == null)
+                return -1;
             int idx = -1;
             for (int i = 0; i < s.Length; i++)
             {
