@@ -19,5 +19,13 @@ namespace MyMath.Tests
             int output = MyMath.Operations.Max(nums);
             Assert.That(output, Is.EqualTo(1024));
         }
+         [Test]
+        public void xnull()
+        {
+            List<int> nums = null;
+
+            int max = Operations.Max(nums);
+            Assert.AreEqual(0, max);
+        }
     }
 }
