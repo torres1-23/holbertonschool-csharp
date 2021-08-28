@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-/// <summary>Represents Mathematical Operations with Vectors.</summary>
+/// <summary>Represents Mathematical Operations with matrices.</summary>
 class MatrixMath
 {
     /// <summary>Computes addition of matrixes.</summary>
